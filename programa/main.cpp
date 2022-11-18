@@ -13,7 +13,7 @@ int main(/*int argc, char *argv[]*/){
     ifstream archivo;
     string texto;
 
-    archivo.open("listadoIp.txt",ios::in);
+    archivo.open("./assets/listadoIp.txt",ios::in);
 
     if (archivo.fail()){
         cout<<"No se pudo abrir el archivo";
